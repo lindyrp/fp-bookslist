@@ -13,11 +13,13 @@
 
 <body>
   <header>
-  
+    <div class="col-xs-1">
+      logo image
+    </div>
     <div class="col-xs-2 app_name">
       Bookslist
     </div>
-    <div class="col-xs-4 slogan">
+    <div class="col-xs-5 slogan">
       What's on my shelves
     </div>
     <div class="col-xs-4 links">
@@ -27,7 +29,16 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+<div class="container">
+  <%= yield %>
+</div>
+
+<div class="footer">
+  <div class = "container">
+    <p class="text-muted">Nah, not this one. Show me another.</p>
+  </div>
+</div>
+
 
 </body>
 </html>
