@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Bookslist</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
+  <header>
+  
+    <div class="col-xs-2 app_name">
+      Bookslist
+    </div>
+    <div class="col-xs-4 slogan">
+      What's on my shelves
+    </div>
+    <div class="col-xs-4 links">
+      <%= link_to 'Add a Book', "#" %>
+    </div>
+  </header>
+  <hr />
+  <br class="clear" />
 
 <%= yield %>
 

@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,700);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300italic,500,300);
+
+.clear {
+  clear: both;
+}
+
+.app_name {
+  color: #546E7A;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.slogan {
+  color: #6E7A54;
+  font-family: 'Rock Salt', cursive;
+  padding-top: 15px;
+}
+
+.links a {
+  color: #F44336;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 18px; 
+}
+
+hr {
+  clear: both;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
