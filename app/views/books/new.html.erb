@@ -1,0 +1,8 @@
+<h2>Have a book to add to the shelf?</h2>
+<%= simple_form_for @book do |f| %>
+  <%= f.input :title %>
+  <%= f.input :author %>
+  <%= f.input :location %>
+  <br />
+  <%= f.submit 'Add Book', class: "btn btn-success" %>
+<% end %>

@@ -6,6 +6,8 @@ Bookslist::Application.routes.draw do
   # root 'welcome#index'
   root 'books#index'
 
+  resources :books
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

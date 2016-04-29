@@ -9,6 +9,9 @@ gem 'pg'
 # Use 12factor to optimize Heroku connection
 gem 'rails_12factor', group: :production
 
+#Use simple_form for building forms
+gem 'simple_form'
+
 # Use Bootstrap front end framework
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'

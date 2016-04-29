@@ -13,17 +13,17 @@
 
 <body>
   <header>
-    <div class="col-xs-1">
+    <div class="col-xs-1 pull-left">
       logo image
     </div>
     <div class="col-xs-2 app_name">
-      Bookslist
+      <%= link_to 'Bookslist', root_path %>
     </div>
     <div class="col-xs-5 slogan">
       What's on my shelves
     </div>
     <div class="col-xs-4 links">
-      <%= link_to 'Add a Book', "#" %>
+      <%= link_to 'Add a Book', new_book_path %>
     </div>
   </header>
   <hr />
